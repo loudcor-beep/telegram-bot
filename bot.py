@@ -2,8 +2,8 @@ import os
 from telegram import Update
 from telegram.ext import ApplicationBuilder, MessageHandler, ContextTypes, filters
 
-TOKEN = os.getenv("8584981668:AAHm1RTtVp4nJ7TVxwG3pmfn9q--obqsSz0")
-PUBLIC_URL = os.getenv("https://telegram-bot-r4az.onrender.com")
+TOKEN = os.getenv("BOT_TOKEN")
+PUBLIC_URL = os.getenv("PUBLIC_URL")
 PORT = int(os.getenv("PORT", "10000"))
 
 AUTO_REPLY = (
